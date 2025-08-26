@@ -1,0 +1,260 @@
+:root {
+    --color-primaria: #FFFFFF;
+    --color-secundaria: #35070A;
+    --color-background: #000;
+    --fonte-kronaOne: "Krona one";
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-primaria);
+    font-family: var(--fonte-kronaOne);
+    font-size: 28px;
+    font-weight: 400;
+   
+}
+
+.logoFla {
+    width: 198px;
+    height: 198px;
+    position: absolute;
+    top: 20px;
+    left: 621px;
+    transition: transform 0.4s ease;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.logoFla:hover {
+  transform: scale(1.1);
+}
+
+
+.parte1 {
+    width: 1098px;
+    height: 560px;
+    position: relative;
+    top: 550px;
+    left: 80px;
+}
+
+
+.texto1 {
+  position: absolute;
+  top: 23px;
+  left: 583px;
+  font-size: 28px;
+}
+
+.paragrafo1 {
+    position: absolute;
+    top: 237px;
+    left: 750px;
+}
+
+.imagemUm {
+    position: relative;
+    
+}
+
+.botao1 {
+    text-decoration: none;
+    border-radius: 10px;
+    color: var(--color-primaria);
+    background-color: var(--color-secundaria);
+    width: 499px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 321px;
+    left: 582px;
+    font-size: 20px;
+}
+
+.botao2 {
+    text-decoration: none;
+    border-radius: 10px;
+    color: var(--color-primaria);
+    border: 3px solid var(--color-primaria);
+    width: 499px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 455px;
+    left: 582px;
+    font-size: 20px;
+    
+}
+
+.botao1, .botao2 {
+    gap: 67px;
+}
+
+
+.paragrafo2 {
+    font-size: 10px;
+    position: absolute;
+    top: 541px;
+    left: 608px;
+}
+
+.parte2 {
+    width: 1149px;
+    height: 560px;
+    position: relative;
+    top: 950px;
+    left: 211px;
+}
+
+.conteudoTexto2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto2 {
+    position: absolute;
+    top: 106px;
+    left: 59px;
+    font-size: 32px;
+    width: 511px;
+    height: 51px;
+}
+
+.paragrafo3 {
+    position: absolute;
+    top: 251px;
+    left: 0px;
+    width: 630px;
+    height: 149px;
+}
+
+.imagemDois {
+    position: relative;
+    left: 701px;
+}
+
+.parte3 {
+    width: 990px;
+    height: 668px;
+    position: relative;
+    top: 1350px;
+    left: 80px;
+}
+
+.texto3 {
+    width: 630px;
+    height: 149px;
+    position: absolute;
+    top: 250px;
+    left: 541px;
+    font-size: 28px;
+}
+
+.paragrafo4 {
+    font-size: 32px;
+    position: absolute;
+    top: 91px;
+    left: 573px;
+}
+
+.parte4 {
+    width: 1115px;
+    height: 426px;
+    position: relative;
+    top: 1750px;
+    left: 162px;
+}
+
+.texto4 {
+    position: absolute;
+    top: 0px;
+    left: 96px;
+    font-size: 32px;         ;
+}
+
+.tv {
+    position: absolute;
+    top: 368px;
+    left: 92px;
+}
+
+.pc {
+    position: absolute;
+    top: 368px;
+    left: 526px;
+}
+
+.celular {
+    position:absolute;
+    top: 368px;
+    left: 843px;
+}
+
+#tv {
+   position: absolute;
+   top: 156px;
+   left: 0px; 
+}
+
+#pc {
+   position: absolute;
+   top: 198px;
+   left: 446px; 
+}
+
+#celular {
+   position: absolute;
+   top: 181px;
+   left: 907px; 
+}
+
+.parte5 {
+    width: 1276px;
+    height: 240px;
+    position: relative;
+    top: 2150px;
+    left: 82px;
+    padding: 2em;
+}
+
+.texto5 {
+    font-size: 32px;
+    position: absolute;
+    top: 0px;
+    left: 562px;
+}
+
+.paragrafo5 {
+    font-size: 12px;
+    position: absolute;
+    top: 112px;
+    left: 44px;
+}
+
+.paragrafo6 {
+    font-size: 12px;
+    position: absolute;
+    top: 163px;
+    left: 149px;
+}
+
+.paragrafo7 {
+    font-size: 12px;
+    position: absolute;
+    top: 210px;
+    left: 66px;
+
+}
+
